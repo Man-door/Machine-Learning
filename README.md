@@ -22,7 +22,6 @@ This repository contains a machine learning project for building a recommendatio
 ### 1. **Data Cleaning**
 The `dataset.ipynb` file demonstrates the entire data wrangling process, including:
 - Handling missing values in the dataset.
-- Encoding categorical variables such as service and location.
 - Normalizing numerical features like `pengalaman`, `rating`, and `portofolio`.
 
 ### 2. **Model Creation**
@@ -35,4 +34,4 @@ The `model_final.ipynb` file contains the code for building a deep learning mode
 You can install them using pip:
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
